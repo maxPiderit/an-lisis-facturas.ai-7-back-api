@@ -1,0 +1,21 @@
+{
+    "name": "analisis-facturas-ai",
+    "version": "1.0.0",
+    "description": "API para análisis de facturas",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "multer": "^1.4.5-lts.1",
+      "openai": "^3.2.1",
+      "cors": "^2.8.5",
+      "pdf-parse": "^1.1.1",
+      "mammoth": "^1.4.21",
+      "axios": "^0.27.2",
+      "pdf-poppler": "^0.2.1",
+      "xlsx": "^0.18.5",
+      "dotenv": "^16.0.0"
+    }
+  }
