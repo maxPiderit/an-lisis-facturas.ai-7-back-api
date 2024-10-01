@@ -303,5 +303,9 @@ app.post('/analizar-facturas', upload.array('archivos'), async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Bienvenido a la API de análisis de facturas');
+});
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`Servidor corriendo en puerto ${PORT}`));
